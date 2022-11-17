@@ -31,7 +31,7 @@ html {
 
 .container_imagin_background {
     height: 650px;
-    background-image: url('assets/images/fondo.jpg');
+    background-image: url('../../assets/images/fondo.jpg');
     background-repeat: no-repeat;
     background-color: linear-gradient(180deg, rgba(85, 125, 157, 0.553) 0%, rgba(40, 60, 76, 0.7) 72.4%);
     opacity: .7;
@@ -51,9 +51,11 @@ html {
 .container_imagin_background .wrap_section_box .ul_clas_socialnetworks::after {
     content: '';
     position: absolute;
-    height: 100px;
-    width: 70%;
-    background: rgba(0,0,0.5);
+    height: 3px;
+    /* left: 10px; */
+    width: 90%;
+    margin: auto;
+    background: rgba(256,256,256.5);
 }
 
 .box_services .wrap_sections .section_serv {

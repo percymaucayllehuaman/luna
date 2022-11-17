@@ -1,10 +1,10 @@
 
     <?php
-    
+
     /**
-     * 
+     *
      * Theme Name: Luna
-     * 
+     *
      *
      *
      * @package WordPress
@@ -15,12 +15,12 @@
         // get_header();
         require('header.php');
     ?>
-    
-    
-    <header class="header_main_luna bg-white overflow-hidden box-border w-full h-[80px] relative z-[9999]" id="inicioluna">
+
+
+    <header class="header_main_luna bg-white overflow-hidden box-border w-full h-[80px] relative z-[9999] section" id="inicioluna">
         <div class="wrap_center_width h-[80px] w-full fixed oerverflow-hidden flex justify-between px-2 sm:px-[4rem] bg-white">
             <div class="main_left_wrap_logo box-border items-center h-full flex mr-5">
-                <img src="assets/logo/Logo_Luna.png" alt="Logo de Luna" class="h-[65px]">
+                <img src="./assets/logo/Logo_Luna.png" alt="Logo de Luna" class="h-[65px]">
             </div>
             <div>
             </div>
@@ -66,17 +66,17 @@
                 <ul class="ul_clas_socialnetworks menu_ul_h flex justify-center gap-5">
                     <li class="li_icons mt-3">
                         <a class="a_link_social_net" href="http://instagram" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/iconspng/tiktok.png" alt="Icon Tiktok" class="icon_socialnetworks w-[50px]">
+                            <img src="./assets/iconspng/tiktok.png" alt="Icon Tiktok" class="icon_socialnetworks w-[50px]">
                         </a>
                     </li>
                     <li class="li_icons mt-3">
                         <a class="a_link_social_net" href="http://instagram" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/iconspng/linkedin.png" alt="icon in" class="icon_socialnetworks w-[50px]">
+                            <img src="./assets/iconspng/linkedin.png" alt="icon in" class="icon_socialnetworks w-[50px]">
                         </a>
                     </li>
                     <li class="li_icons mt-3">
                         <a class="a_link_social_net" href="http://instagram" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/iconspng/fb.png" alt="Icon Fb" class="icon_socialnetworks w-[50px]">
+                            <img src="./assets/iconspng/fb.png" alt="Icon Fb" class="icon_socialnetworks w-[50px]">
                         </a>
                     </li>
                     <li class="li_icons mt-3">
@@ -89,7 +89,7 @@
 
         </div>
     </div>
-    <div class="content_services_luna sm:my-10 block" id="lunaservices">
+    <div class="content_services_luna sm:my-10 block section" id="lunaservices">
         <h2 class="question_title text-center text-[2rem] sm:text-[3rem] font-bold my-8 px-1 " style="color: var(--primary-color);">
             ¿Qué te ofrecemos?
         </h2>
@@ -247,7 +247,7 @@
             </div>
         </div>
     </div>
-    <div class="aboutusluna my-5" id="aboutusluna">
+    <div class="aboutusluna my-5 section" id="aboutusluna">
         <h2 class="title_aboutus text-center font-bold text-[2rem] sm:text-[3rem]" style="color: var(--primary-color);">
             Conoce a nuestro equipo
         </h2>
@@ -322,7 +322,7 @@
             </acticle>
         </div>
     </div>
-    <div class="contactsluna w-full" id="contactsluna">
+    <div class="contactsluna w-full section" id="contactsluna">
         <div class="">
             <h2 class="text-[2rem] sm:text-[3rem] font-bold text-center my-8" style="color: var(--primary-color)">
                 Te gustaría empezar tu proyecto con nosotros?
